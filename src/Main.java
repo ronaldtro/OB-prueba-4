@@ -26,9 +26,9 @@ public class Main {
 }
 
 class Persona{
-    public String nombre;
-    public int edad;
-    public int telefono;
+    private String nombre;
+    private int edad;
+    private int telefono;
 
     public void setNombre(String nombre){
         this.nombre = nombre;
